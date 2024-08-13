@@ -3,27 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hora do Dia</title>
+    <title>Contador de Passos</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="icon/time-icon.png" type="image/x-icon">
    
 </head>
-<body onload="carregar()">
+<body>
     <header>
-        <h1>Hora do Dia</h1>
+        <h1>Vamos contar</h1>
     </header>
     <section>
-        <div id="msg">
-            Aqui vai aparecer a mensagem...
+        <div id="dados">
+            <p>Início: <input type="number" name="inicio" id="txtinicio"></p>
+            <p>Fim: <input type="number" name="fim" id="txtfim"></p>
+            <p>Passo: <input type="number" name="passo" id="txtpasso"></p>
+            <p><input type="button" value="contar" onclick="contar()"></p>
         </div>
-        <div id="foto">
-            <img id="imagem" src="imagens/manha.png" alt="Foto do dia">
-
+        <div id="resultado">
+           Preparando a contagem...
         </div>
     </section>
     <footer>
         <p>&copy; Arley.it</p>
     </footer>
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

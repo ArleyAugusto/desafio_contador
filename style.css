@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-color: rgba(55, 55, 128, 0.808);
+    background-color: rgba(39, 91, 151, 0.808);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15pt;
 }
@@ -23,17 +23,5 @@ section {
 footer {
     color: white;
     text-align: center;
-    font-style: italic;
-    font-size: 14pt;
-    
-}
-
-div {
-    text-align: center;
-    padding: 8px;
-}
-
-img#imagem {
-    height: 210px;
-    
+    font-style: italic;    
 }
